@@ -96,7 +96,10 @@ class _HomeScreenState extends State<HomeScreen> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('BottomNavigationBar',style: TextStyle(fontWeight: FontWeight.bold),),
+            Text(
+              'BottomNavigationBar',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
             Container(
               alignment: Alignment.center,
               color: Colors.green,
@@ -105,8 +108,13 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 200,
               child: screens.elementAt(indexSelected),
             ),
-            SizedBox(height: 50,),
-            Text('Drawer',style: TextStyle(fontWeight: FontWeight.bold),),
+            SizedBox(
+              height: 50,
+            ),
+            Text(
+              'Drawer',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
             Container(
               alignment: Alignment.center,
               color: Colors.blue,
